@@ -147,11 +147,23 @@ contact-manager/
 
 ## Environment Variables
 
+Create a `.env` file in the backend directory based on `.env.example`:
+
+```bash
+cp backend/.env.example backend/.env
+```
+
 Backend `.env` file:
 ```
 MONGODB_URI=mongodb://localhost:27017/contact-manager
-PORT=5000
+PORT=5001
 ```
+
+**⚠️ SECURITY NOTE:**
+- Never commit `.env` files to version control
+- The `.env` file is already included in `.gitignore`
+- Use `.env.example` as a template for environment variables
+- For production, use environment-specific configuration
 
 ## Development Notes
 
