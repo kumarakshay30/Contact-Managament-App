@@ -1,0 +1,10 @@
+[
+  {
+    "_id": "1",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "phone": "1234567890",
+    "message": "Test message",
+    "createdAt": "2026-01-03T12:46:11.396Z"
+  }
+]
