@@ -87,7 +87,7 @@ The application follows a **modern client-server architecture**:
 
 2. **Add Environment Variables**
    ```
-   MONGODB_URI=mongodb+srv://your_username:your_password@your-cluster.mongodb.net/?appName=Cluster0
+   mongodb+srv://<credentials>@<cluster-host>/<db-name>
    PORT=5001
    ```
 
